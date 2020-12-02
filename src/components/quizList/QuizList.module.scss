@@ -1,0 +1,35 @@
+.QuizList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    .QuizItem {
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 300px;
+        box-sizing: border-box;
+        padding: 20px;
+        border: 5px solid darkorange;
+        border-radius: 7px;
+        background: white;
+        &:hover {
+          background: lightskyblue;
+          cursor: pointer;
+        }
+        h2 {
+          font-size: 40px;
+          margin: 0;
+          margin-bottom: 15px;
+        }
+        div {
+          font-size: 20px;
+        }
+      }
+}

@@ -1,0 +1,15 @@
+.AuthGoogleWrapper {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: darkmagenta;
+    .AuthGoogle {
+        width: 200px;
+        height: 50px;
+        background-color: darkorange !important;
+        color: darkmagenta !important;
+    }
+}

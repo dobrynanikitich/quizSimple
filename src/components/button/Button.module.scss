@@ -1,0 +1,53 @@
+.Next {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    height: 50px;
+    width: 120px;
+    border: 5px solid darkmagenta;
+    border-radius: 7px;
+    background: navajowhite;
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+        background: lightskyblue;
+    }
+}
+
+.Back {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    height: 50px;
+    width: 120px;
+    border: 5px solid darkmagenta;
+    border-radius: 7px;
+    background: navajowhite;
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+        background: lightskyblue;
+    }
+}
+
+.PlayAgain {
+    height: 70px;
+    width: 170px;
+    border: 5px solid darkmagenta;
+    border-radius: 7px;
+    background: navajowhite;
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+        background: lightskyblue;
+    }
+}
